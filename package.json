@@ -1,0 +1,25 @@
+{
+  "name": "integration-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "local": "node main.js jabber",
+    "test": "jasmine-node tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.10.2",
+    "eslint-plugin-import": "^1.8.1",
+    "jasmine": "^2.4.1",
+    "jasmine-es6": "^0.1.10",
+    "jasmine-expect": "^2.0.2",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "ramda": "^0.21.0",
+    "stanza.io": "^8.0.0"
+  }
+}
